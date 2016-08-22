@@ -14,6 +14,8 @@
 		AA584AFB1D67642E001AF435 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA584AF91D67642E001AF435 /* LaunchScreen.storyboard */; };
 		AA584B061D67642F001AF435 /* DrawpboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA584B051D67642F001AF435 /* DrawpboxTests.swift */; };
 		AA584B111D67642F001AF435 /* DrawpboxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA584B101D67642F001AF435 /* DrawpboxUITests.swift */; };
+		AA584B1F1D6B887A001AF435 /* CreateAccountRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA584B1E1D6B887A001AF435 /* CreateAccountRootViewController.swift */; };
+		AA584B211D6B89E9001AF435 /* SignInRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA584B201D6B89E9001AF435 /* SignInRootViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		AA584B0C1D67642F001AF435 /* DrawpboxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawpboxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA584B101D67642F001AF435 /* DrawpboxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawpboxUITests.swift; sourceTree = "<group>"; };
 		AA584B121D67642F001AF435 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA584B1E1D6B887A001AF435 /* CreateAccountRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountRootViewController.swift; sourceTree = "<group>"; };
+		AA584B201D6B89E9001AF435 /* SignInRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInRootViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				AA584AF01D67642E001AF435 /* AppDelegate.swift */,
 				AA584AF21D67642E001AF435 /* ViewController.swift */,
 				AA584AF41D67642E001AF435 /* Main.storyboard */,
+				AA584B1E1D6B887A001AF435 /* CreateAccountRootViewController.swift */,
+				AA584B201D6B89E9001AF435 /* SignInRootViewController.swift */,
 				AA584AF71D67642E001AF435 /* Assets.xcassets */,
 				AA584AF91D67642E001AF435 /* LaunchScreen.storyboard */,
 				AA584AFC1D67642E001AF435 /* Info.plist */,
@@ -256,6 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA584B211D6B89E9001AF435 /* SignInRootViewController.swift in Sources */,
+				AA584B1F1D6B887A001AF435 /* CreateAccountRootViewController.swift in Sources */,
 				AA584AF31D67642E001AF435 /* ViewController.swift in Sources */,
 				AA584AF11D67642E001AF435 /* AppDelegate.swift in Sources */,
 			);

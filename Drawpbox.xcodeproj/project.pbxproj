@@ -16,6 +16,16 @@
 		AA584B111D67642F001AF435 /* DrawpboxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA584B101D67642F001AF435 /* DrawpboxUITests.swift */; };
 		AA584B1F1D6B887A001AF435 /* CreateAccountRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA584B1E1D6B887A001AF435 /* CreateAccountRootViewController.swift */; };
 		AA584B211D6B89E9001AF435 /* SignInRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA584B201D6B89E9001AF435 /* SignInRootViewController.swift */; };
+		AA584B271D6BB279001AF435 /* Create1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA584B261D6BB279001AF435 /* Create1ViewController.swift */; };
+		AA584B291D6BB37D001AF435 /* Create2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA584B281D6BB37D001AF435 /* Create2ViewController.swift */; };
+		AA584B2B1D6BB44B001AF435 /* Create3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA584B2A1D6BB44B001AF435 /* Create3ViewController.swift */; };
+		AA584B2D1D6BB461001AF435 /* Create4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA584B2C1D6BB461001AF435 /* Create4ViewController.swift */; };
+		AA584B2F1D6BBCF8001AF435 /* Create5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA584B2E1D6BBCF8001AF435 /* Create5ViewController.swift */; };
+		AA584B311D6BBEBA001AF435 /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA584B301D6BBEBA001AF435 /* TermsViewController.swift */; };
+		AA9B33481D6BC5B70075BC6D /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9B33471D6BC5B70075BC6D /* SettingsViewController.swift */; };
+		AA9B334A1D6BC79C0075BC6D /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9B33491D6BC79C0075BC6D /* SignInViewController.swift */; };
+		AA9B334C1D6BCCF30075BC6D /* SignedPhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9B334B1D6BCCF30075BC6D /* SignedPhotosViewController.swift */; };
+		AA9B334E1D6BD3780075BC6D /* ForgotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9B334D1D6BD3780075BC6D /* ForgotViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +61,16 @@
 		AA584B121D67642F001AF435 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA584B1E1D6B887A001AF435 /* CreateAccountRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountRootViewController.swift; sourceTree = "<group>"; };
 		AA584B201D6B89E9001AF435 /* SignInRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInRootViewController.swift; sourceTree = "<group>"; };
+		AA584B261D6BB279001AF435 /* Create1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Create1ViewController.swift; sourceTree = "<group>"; };
+		AA584B281D6BB37D001AF435 /* Create2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Create2ViewController.swift; sourceTree = "<group>"; };
+		AA584B2A1D6BB44B001AF435 /* Create3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Create3ViewController.swift; sourceTree = "<group>"; };
+		AA584B2C1D6BB461001AF435 /* Create4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Create4ViewController.swift; sourceTree = "<group>"; };
+		AA584B2E1D6BBCF8001AF435 /* Create5ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Create5ViewController.swift; sourceTree = "<group>"; };
+		AA584B301D6BBEBA001AF435 /* TermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
+		AA9B33471D6BC5B70075BC6D /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		AA9B33491D6BC79C0075BC6D /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		AA9B334B1D6BCCF30075BC6D /* SignedPhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignedPhotosViewController.swift; sourceTree = "<group>"; };
+		AA9B334D1D6BD3780075BC6D /* ForgotViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +121,19 @@
 		AA584AEF1D67642E001AF435 /* Drawpbox */ = {
 			isa = PBXGroup;
 			children = (
+				AA9B33471D6BC5B70075BC6D /* SettingsViewController.swift */,
 				AA584AF01D67642E001AF435 /* AppDelegate.swift */,
 				AA584AF21D67642E001AF435 /* ViewController.swift */,
 				AA584AF41D67642E001AF435 /* Main.storyboard */,
+				AA9B334D1D6BD3780075BC6D /* ForgotViewController.swift */,
+				AA9B334B1D6BCCF30075BC6D /* SignedPhotosViewController.swift */,
+				AA9B33491D6BC79C0075BC6D /* SignInViewController.swift */,
+				AA584B301D6BBEBA001AF435 /* TermsViewController.swift */,
+				AA584B2E1D6BBCF8001AF435 /* Create5ViewController.swift */,
+				AA584B2C1D6BB461001AF435 /* Create4ViewController.swift */,
+				AA584B2A1D6BB44B001AF435 /* Create3ViewController.swift */,
+				AA584B281D6BB37D001AF435 /* Create2ViewController.swift */,
+				AA584B261D6BB279001AF435 /* Create1ViewController.swift */,
 				AA584B1E1D6B887A001AF435 /* CreateAccountRootViewController.swift */,
 				AA584B201D6B89E9001AF435 /* SignInRootViewController.swift */,
 				AA584AF71D67642E001AF435 /* Assets.xcassets */,
@@ -262,8 +292,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA584B2F1D6BBCF8001AF435 /* Create5ViewController.swift in Sources */,
 				AA584B211D6B89E9001AF435 /* SignInRootViewController.swift in Sources */,
+				AA9B33481D6BC5B70075BC6D /* SettingsViewController.swift in Sources */,
+				AA9B334E1D6BD3780075BC6D /* ForgotViewController.swift in Sources */,
+				AA584B2B1D6BB44B001AF435 /* Create3ViewController.swift in Sources */,
 				AA584B1F1D6B887A001AF435 /* CreateAccountRootViewController.swift in Sources */,
+				AA584B311D6BBEBA001AF435 /* TermsViewController.swift in Sources */,
+				AA584B271D6BB279001AF435 /* Create1ViewController.swift in Sources */,
+				AA9B334C1D6BCCF30075BC6D /* SignedPhotosViewController.swift in Sources */,
+				AA584B291D6BB37D001AF435 /* Create2ViewController.swift in Sources */,
+				AA9B334A1D6BC79C0075BC6D /* SignInViewController.swift in Sources */,
+				AA584B2D1D6BB461001AF435 /* Create4ViewController.swift in Sources */,
 				AA584AF31D67642E001AF435 /* ViewController.swift in Sources */,
 				AA584AF11D67642E001AF435 /* AppDelegate.swift in Sources */,
 			);
@@ -490,6 +530,7 @@
 				AA584B171D67642F001AF435 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA584B181D67642F001AF435 /* Build configuration list for PBXNativeTarget "DrawpboxTests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +539,7 @@
 				AA584B1A1D67642F001AF435 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA584B1B1D67642F001AF435 /* Build configuration list for PBXNativeTarget "DrawpboxUITests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +548,7 @@
 				AA584B1D1D67642F001AF435 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

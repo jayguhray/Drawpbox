@@ -48,3 +48,4 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 ## Notes
 
 Describe any challenges encountered while building the app.
+When I got to the perfromSegue section. I didnt realize I was supposed to make a class for each view controller. That wasnt stated in the directions. Same for the Welcome button to use the popView function
